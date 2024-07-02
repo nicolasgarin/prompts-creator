@@ -1,3 +1,4 @@
+import Feed from "@components/Feed"
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
         </span>
     </h1>
     <p className="desc text-center">Prompts creator is an open-source AI prompting tool for modern worlds to discover, create and share creative prompts</p>
+    <Feed />
    </section>
   )
 }
